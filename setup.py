@@ -21,7 +21,7 @@ setup(
     install_requires=load_requirements('requirements.txt'),
     entry_points={
         'console_scripts': [
-            'analyzer-db = analyzer.db.__main__:main'
+            'marketparser-db = marketparser.db.__main__:main'
         ]
     },
     include_package_data=True
